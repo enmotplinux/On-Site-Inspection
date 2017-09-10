@@ -1,6 +1,7 @@
 # On-Site-Inspection
 
 -1.要先进行mongo安装和配置 启动用户和密码 创建abc库
+
 -mongo 用户配置在conf下面conf
 -2.启动要巡检的MySQL程序
 -收集要巡检的MySQL的信息
