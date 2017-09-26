@@ -1,5 +1,5 @@
 {
-    "host":"192.168.1.102",
+    "host":"192.168.230.134",
     "user":"tplinux",
     "passwd":"redhat",
     "db":"abc",

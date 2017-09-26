@@ -6,7 +6,7 @@ from pymongo import MongoClient
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from bin import  mongo as bin_mongo
 
-
+# coding = utf-8
 def main ():
     a_json = json.load(open('./conf/conf', 'r'))
     conn=MongoClient(a_json['host'],int(a_json['port']))

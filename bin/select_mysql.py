@@ -1,9 +1,10 @@
 # coding = utf-8
 from pymongo import MongoClient
-conn = MongoClient('192.168.1.102', 27017)
+import json
+a_json = json.load(open('../conf/conf', 'r'))
+conn = MongoClient(a_json['host'], int(a_json['port']))
 db_auth = conn.abc
-db_auth.authenticate("tplinux", "redhat")
-#print( db_auth.col.find_one({'ip':'192.168.1.102'}))
+
 
 def conf(ip_port):
     for data in db_auth.conf.find({'ip':ip_port}):
