@@ -14,8 +14,8 @@ def conf_mo(host,user,password,db,port):
     db_auth.user.insert({'host':host,'user':user,'password':password ,'db':db,'port':port})
 
 host_host=input('host:')
-user_user='dbashengjie'
-paswd='dbaworks1988314'
+user_user=input('user:')
+paswd=input('password:')
 db_db='mysql'
 port_port=str(input('port:'))
 
