@@ -1,0 +1,18 @@
+{
+    "mongodb": {
+        "host": "127.0.0.1",
+        "port": 27017,
+        "user": "",
+        "password": "",
+        "database": "onsite_inspection",
+        "auth_database": "admin"
+    },
+    "collect": {
+        "concurrency": 5,
+        "sample_interval_seconds": 1,
+        "connect_timeout_seconds": 5,
+        "read_timeout_seconds": 10,
+        "result_retention": 20,
+        "auto_increment_top_n": 10
+    }
+}

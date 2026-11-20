@@ -1,0 +1,9 @@
+# 构建产物
+bin/
+*.test
+*.out
+
+# IDE / 系统
+.DS_Store
+.idea/
+.vscode/
